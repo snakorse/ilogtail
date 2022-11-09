@@ -26,7 +26,7 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/gosnmp/gosnmp v1.31.0
 	github.com/influxdata/go-syslog v1.0.1
-	github.com/influxdata/influxdb v1.8.4
+	github.com/influxdata/influxdb v1.10.0
 	github.com/jackc/pgx/v4 v4.16.1
 	github.com/jeromer/syslogparser v0.0.0-20190429161531-5fbaaf06d9e7
 	github.com/json-iterator/go v1.1.12
@@ -71,6 +71,7 @@ require (
 	github.com/docker/go-metrics v0.0.1 // indirect
 	github.com/frankban/quicktest v1.14.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.7.0 // indirect
+	github.com/influxdata/line-protocol/v2 v2.2.1 // indirect
 	github.com/intel/goresctrl v0.2.0 // indirect
 	github.com/miekg/pkcs11 v1.1.1 // indirect
 	github.com/moby/locker v1.0.1 // indirect
@@ -93,7 +94,7 @@ require (
 )
 
 require (
-	cloud.google.com/go v0.81.0 // indirect
+	cloud.google.com/go v0.82.0 // indirect
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/BurntSushi/toml v0.3.1 // indirect
 	github.com/Microsoft/go-winio v0.5.2 // indirect
@@ -140,7 +141,7 @@ require (
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/go-cmp v0.5.8 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
-	github.com/google/uuid v1.2.0 // indirect
+	github.com/google/uuid v1.3.0 // indirect
 	github.com/googleapis/gnostic v0.5.5 // indirect
 	github.com/gopherjs/gopherjs v0.0.0-20181017120253-0766667cb4d1 // indirect
 	github.com/hashicorp/go-uuid v1.0.2 // indirect
@@ -200,7 +201,7 @@ require (
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e // indirect
 	golang.org/x/net v0.0.0-20220921203646-d300de134e69 // indirect
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8 // indirect
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
+	golang.org/x/sync v0.0.0-20220513210516-0976fa681c29 // indirect
 	golang.org/x/term v0.0.0-20220526004731-065cf7ba2467 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect
