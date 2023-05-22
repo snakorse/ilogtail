@@ -36,10 +36,11 @@ type GlobalConfig struct {
 	// Directory to store logtail data, such as checkpoint, etc.
 	LogtailSysConfDir string
 	// Network identification from logtail.
-	HostIP       string
-	Hostname     string
-	AlwaysOnline bool
-	DelayStopSec int
+	HostIP          string
+	Hostname        string
+	AlwaysOnline    bool
+	DelayStopSec    int
+	AddHostInfoTags bool
 }
 
 // LogtailGlobalConfig is the singleton instance of GlobalConfig.
@@ -80,6 +81,7 @@ func newGlobalConfig() (cfg GlobalConfig) {
 		DefaultLogGroupQueueSize: 4,
 		LogtailSysConfDir:        ".",
 		DelayStopSec:             300,
+		AddHostInfoTags:          true,
 	}
 	return
 }
